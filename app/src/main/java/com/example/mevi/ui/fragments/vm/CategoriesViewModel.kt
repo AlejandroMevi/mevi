@@ -6,12 +6,14 @@ import androidx.lifecycle.viewModelScope
 import com.example.mevi.core.ApiResponceStatus
 import com.example.mevi.ui.fragments.data.CategoriesRepository
 import com.example.mevi.ui.fragments.data.ProductsResponse
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class CategoriesViewModel : ViewModel() {
-
-    private val repository = CategoriesRepository()
-
+@HiltViewModel
+class CategoriesViewModel @Inject constructor(
+    private val repository: CategoriesRepository
+) : ViewModel() {
     var status = MutableLiveData<ApiResponceStatus<Any>?>(null)
         private set
 

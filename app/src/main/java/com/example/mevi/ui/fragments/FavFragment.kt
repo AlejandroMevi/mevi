@@ -12,7 +12,9 @@ import com.example.mevi.core.Utilities
 import com.example.mevi.databinding.FragmentFavBinding
 import com.google.android.material.card.MaterialCardView
 import com.example.mevi.ui.fragments.data.ProductsResponse
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class FavFragment : Fragment(), ListProductsdapter.OnClickListener {
 
     private lateinit var binding: FragmentFavBinding

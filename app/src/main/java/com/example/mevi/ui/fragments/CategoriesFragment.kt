@@ -12,8 +12,9 @@ import com.example.mevi.databinding.FragmentCategoriesBinding
 import com.google.android.material.card.MaterialCardView
 
 import com.example.mevi.ui.fragments.vm.CategoriesViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class CategoriesFragment : Fragment(), ListCategoriesdapter.OnClickListener {
 
     private lateinit var binding: FragmentCategoriesBinding
