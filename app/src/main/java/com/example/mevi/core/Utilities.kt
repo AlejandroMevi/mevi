@@ -15,7 +15,7 @@ import com.example.mevi.ui.activity.MainActivity
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.mevi.fakestore.ui.fragments.data.ProductsResponse
+import com.example.mevi.ui.fragments.data.ProductsResponse
 
 
 class Utilities {

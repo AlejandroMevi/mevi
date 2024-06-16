@@ -14,7 +14,7 @@ import com.example.mevi.core.ViewHolderGeneral
 import com.example.mevi.databinding.ItemListProductsBinding
 import com.google.android.material.card.MaterialCardView
 import com.google.gson.Gson
-import com.mevi.fakestore.ui.fragments.data.ProductsResponse
+import com.example.mevi.ui.fragments.data.ProductsResponse
 
 class ListProductsdapter
     (

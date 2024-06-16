@@ -1,4 +1,4 @@
-package com.mevi.fakestore.ui.fragments
+package com.example.mevi.ui.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -13,9 +13,8 @@ import com.example.mevi.core.Constants
 import com.example.mevi.core.Utilities
 import com.example.mevi.databinding.FragmentProductsBinding
 import com.example.mevi.ui.activity.MainInterface
-import com.example.mevi.ui.fragments.ListProductsdapter
 import com.google.android.material.card.MaterialCardView
-import com.mevi.fakestore.ui.fragments.data.ProductsResponse
+import com.example.mevi.ui.fragments.data.ProductsResponse
 import com.example.mevi.ui.fragments.vm.CategoriesViewModel
 
 class ProductsFragment : Fragment(), ListProductsdapter.OnClickListener {

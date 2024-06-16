@@ -3,12 +3,10 @@ package com.example.mevi.ui.fragments.data
 import com.example.mevi.core.ApiResponceStatus
 import com.example.mevi.core.RetrofitConnection
 import com.example.mevi.core.makeNetworkCall
-import com.mevi.fakestore.ui.fragments.data.CategoriesApieClient
-import com.mevi.fakestore.ui.fragments.data.ProductsResponse
 
 class CategoriesRepository {
 
-    val autservice = RetrofitConnection().getRetrofit()
+    private val autservice = RetrofitConnection().getRetrofit()
 
     suspend fun search(
     ): ApiResponceStatus<List<String>> {

@@ -11,7 +11,7 @@ import com.example.mevi.R
 import com.example.mevi.core.Utilities
 import com.example.mevi.databinding.FragmentFavBinding
 import com.google.android.material.card.MaterialCardView
-import com.mevi.fakestore.ui.fragments.data.ProductsResponse
+import com.example.mevi.ui.fragments.data.ProductsResponse
 
 class FavFragment : Fragment(), ListProductsdapter.OnClickListener {
 

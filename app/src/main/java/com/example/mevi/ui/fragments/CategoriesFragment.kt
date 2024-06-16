@@ -12,7 +12,6 @@ import com.example.mevi.databinding.FragmentCategoriesBinding
 import com.google.android.material.card.MaterialCardView
 
 import com.example.mevi.ui.fragments.vm.CategoriesViewModel
-import com.mevi.fakestore.ui.fragments.ProductsFragment
 
 
 class CategoriesFragment : Fragment(), ListCategoriesdapter.OnClickListener {

@@ -1,4 +1,4 @@
-package com.mevi.fakestore.ui.fragments.data
+package com.example.mevi.ui.fragments.data
 
 import retrofit2.http.GET
 import retrofit2.http.Headers

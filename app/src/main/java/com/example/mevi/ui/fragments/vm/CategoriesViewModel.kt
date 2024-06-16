@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.mevi.core.ApiResponceStatus
 import com.example.mevi.ui.fragments.data.CategoriesRepository
-import com.mevi.fakestore.ui.fragments.data.ProductsResponse
+import com.example.mevi.ui.fragments.data.ProductsResponse
 import kotlinx.coroutines.launch
 
 class CategoriesViewModel : ViewModel() {
