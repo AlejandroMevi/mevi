@@ -6,4 +6,44 @@
     </style>
 
     <style name="Theme.Mevi" parent="Base.Theme.Mevi" />
+
+    <style name="NavigationView" parent="@style/Widget.Material3.NavigationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="itemPaddingTop">5dp</item>
+        <item name="itemPaddingBottom">5dp</item>
+        <item name="elevation">10dp</item>
+    </style>
+
+    <style name="TextHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="InputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="hintTextColor">@color/principal</item>
+    </style>
+
+    <style name="RoundedButton">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="WhiteAccent" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorAccent">@color/white</item>
+    </style>
 </resources>

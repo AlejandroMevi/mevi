@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageProduct"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/margin_extra_large"
+            android:src="@drawable/ic_generico"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/title_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_extra_large"
+            android:layout_marginVertical="@dimen/margin_large"
+            tools:text="Titulo"
+            android:textSize="@dimen/text_title"
+            android:textStyle="bold"
+            android:textColor="@color/color2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageProduct" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/price_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_extra_large"
+            android:layout_marginVertical="@dimen/margin_small"
+            android:textColor="@color/color5"
+            tools:text="price"
+            android:textSize="@dimen/text_title"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_product" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_extra_large"
+            android:layout_marginVertical="@dimen/margin_small"
+            tools:text="category"
+            android:textSize="@dimen/text_subtitle"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/price_product" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/description_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_extra_large"
+            android:layout_marginVertical="@dimen/margin_small"
+            android:textColor="@color/color3"
+            tools:text="Descripcion"
+            android:textSize="@dimen/text_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/category" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="1"
+            android:progressBackgroundTint="@color/principal"
+            android:progressTint="@color/progress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/count_product">
+
+        </RatingBar>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/count_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_extra_large"
+            android:layout_marginVertical="@dimen/margin_small"
+            tools:text="conut"
+            android:textSize="@dimen/text_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_product" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

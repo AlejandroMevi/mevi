@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="principal">#B38B88</color>
+    <color name="color1">#A1727E</color>
+    <color name="color2">#7D545B</color>
+    <color name="color3">#617C91</color>
+    <color name="color4">#0E1114</color>
+    <color name="color5">#405B75</color>
+    <color name="color6">#7E90A0</color>
+    <color name="pages">#2B3D41</color>
+    <color name="progress">#558B6E</color>
+    <color name="toolbar">#D5F2E3</color>
 </resources>

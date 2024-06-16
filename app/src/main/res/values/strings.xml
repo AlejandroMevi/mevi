@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Mevi</string>
+    <string name="fakeStore">FakeStore</string>
+    <string name="favorite">Favoritos</string>
+    <string name="categories">Categorías</string>
+    <string name="delete">Eliminar todo</string>
+
+    <string name="electronics">Electronica</string>
+    <string name="jewelery">Joyeria</string>
+    <string name="men_clothing">Ropa de hombre</string>
+    <string name="woemn_clothing">Ropa de mujer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
